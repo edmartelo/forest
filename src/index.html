@@ -7,7 +7,7 @@
   <title>Forest</title>
   <link rel="stylesheet" href="/src/output.css">
 </head>
-<body class="bg-verde-800 font-sans">
+<body class="bg-verde-800 font-sans mb-96">
   <div class="container mt-4 flex justify-center md:justify-start">
     <div class="inline-flex items-center rounded-md bg-verde-900">
       <span class="size-2 bg-verde-300 block rounded-full relative -left-1"></span>
@@ -18,6 +18,7 @@
       </div>
     </div> 
   </div>
+
   <header class="container flex items-center justify-between gap-8 py-8">
     <a href="./">
       <img src="./img/forest.svg" alt="Forest">
@@ -39,5 +40,29 @@
       </ul>
     </nav>
   </header>
+
+  <main class="container">
+    <div class="relative bg-gradient-to-t from-verde-950/80 pt-64 px-8 pb-8 text-white rounded-2xl overflow-hidden">
+      <img class="absolute inset-0 -z-10 object-cover size-full" src="./img/floresta.jpg" alt="Floresta">
+      <div class="bg-verde-950 inline-flex items-center mb-8 gap-8 py-1 pr-1 pl-4 rounded-full">
+        Vagas para dezembro abertas
+        <a class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full" href="">Reserve Hoje</a>
+      </div>
+      <h1 class="capitalize mb-20 font-serif max-w-screen-sm text-5xl text-balance">venha experimentar a vida na floresta</h1>
+      <div class="flex justify-between items-end text-sm">
+        <p>
+          Melhores locais para visitar <a class="underline decoration-2 underline-offset-4 hover:no-underline" href="">2049</a>
+        </p>
+        <div>
+          <p class="mb-2">RECOMENDADO POR</p>
+          <P class="flex items-center gap-4">
+            <img class="w-28" src="./img/parceiros/wildbeast.svg" alt="wildbeast">
+            <span>|</span>
+            Revista Nacional
+          </P>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
