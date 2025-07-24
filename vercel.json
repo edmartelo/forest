@@ -2,7 +2,7 @@
   "rewrites": [
     { "source": "/", "destination": "/src/index.html" },
     { "source": "/img/:path*", "destination": "/src/img/:path*" },
-    { "source": "/css/:path*", "destination": "/src/css/:path*" }
+    { "source": "/:path*", "destination": "/src/:path*" }
   ]
 }
 
